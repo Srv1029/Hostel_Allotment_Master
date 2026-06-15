@@ -1,0 +1,43 @@
+.main{
+  margin: 0;
+  padding: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.side-img{
+  border: 2px solid red ;
+  width: 30vw;
+  height: 100vh;
+  background-image: url('./side-icon.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.side-write{
+  border: 2px solid blue;
+  width: 40vw;
+  height: 100vh;
+}
+
+.side{
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello2{
+  width: 70vw;
+}

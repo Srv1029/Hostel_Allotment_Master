@@ -1,0 +1,24 @@
+.main-allotment{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(142, 134, 172) 0%, rgb(55, 164, 179) 100%);
+}
+
+.hostel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hostel-box{
+    width: 70vw;
+    background-color: white;
+    /* border-radius: 5%; */
+}
+
